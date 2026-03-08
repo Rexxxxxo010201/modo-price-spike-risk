@@ -5,7 +5,6 @@ https://modo-price-spike-risk.streamlit.app
 
 This project analyzes electricity price spikes in the Australian National Electricity Market using statistical analysis and Extreme Value Theory (EVT).
 
-# Quantifying Extreme Price Risk in Electricity Markets
 
 ## Problem Statement
 
@@ -122,7 +121,7 @@ Candidate spike thresholds derived from the distribution:
 - 95th percentile: 163
 - 99th percentile: 222
 
-The **99th percentile (~222)** will be used as the baseline threshold for defining extreme price spikes in the subsequent analysis.
+The **99th percentile (~222)** is used to define extreme price spikes for spike detection and demand conditional risk analysis.
 
 ## Spike Detection
 
@@ -176,6 +175,7 @@ Candidate thresholds were evaluated using threshold stability and mean excess di
 - 97.5th percentile: 202
 
 The **95th percentile (≈163)** was selected as the modeling threshold because it captures the extreme tail while retaining sufficient exceedances for stable estimation.
+This threshold differs from the spike definition threshold because EVT modeling requires a sufficient number of exceedances to produce stable parameter estimates.
 
 ### Number of Exceedances
 
