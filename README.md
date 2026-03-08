@@ -1,5 +1,12 @@
 # Quantifying Extreme Price Risk in Electricity Markets
 
+🚀 **Live Dashboard:**  
+https://modo-price-spike-risk.streamlit.app
+
+This project analyzes electricity price spikes in the Australian National Electricity Market using statistical analysis and Extreme Value Theory (EVT).
+
+# Quantifying Extreme Price Risk in Electricity Markets
+
 ## Problem Statement
 
 Electricity markets occasionally experience extreme price spikes far above typical levels. These events are rare but economically significant because a small number of intervals can dominate revenues and trading outcomes.
@@ -220,3 +227,11 @@ Users can adjust the target price to estimate the probability of extreme price e
 Example question the dashboard answers:
 
 "What is the probability of electricity prices exceeding $500/MWh?"
+
+## Live Dashboard
+
+The interactive dashboard can be accessed here:
+
+https://modo-price-spike-risk.streamlit.app
+
+The dashboard allows users to explore electricity price spikes, demand relationships and extreme value risk estimates interactively.
